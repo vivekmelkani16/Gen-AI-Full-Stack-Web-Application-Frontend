@@ -1,16 +1,48 @@
-# React + Vite
+# 🤖 AI-Powered Full Stack Web Application (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based frontend for an AI-powered application that analyzes resumes and generates intelligent interview reports using Google Gemini API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
+https://gen-ai-full-stack-web-application-f.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- React.js
+- Vite
+- JavaScript
+- Axios
+- CSS / Tailwind (if used)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- User-friendly interface for AI interactions
+- Resume input and analysis UI
+- Real-time AI response display
+- Secure communication with backend APIs
+- Responsive design
+
+---
+
+## 🔗 Backend API
+Connected to backend:
+👉 https://backend-ledger-9n8m.onrender.com *(replace with correct AI backend if different)*
+
+---
+
+## 🎯 Highlights
+- Integrated frontend with AI-powered backend
+- Implemented API calls using Axios
+- Designed clean and interactive UI for better user experience
+
+---
+
+## ⚙️ Setup
+```bash
+git clone https://github.com/vivekmelkani16/Gen-AI-Full-Stack-Web-Application-Frontend.git
+cd project
+npm install
+npm run dev
